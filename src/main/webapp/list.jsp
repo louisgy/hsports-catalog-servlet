@@ -46,6 +46,9 @@ body {
 			</tr>
 			<tr>
 				<td width="100%" colspan="2">
+				${pageContext.request.contextPath} 
+				${param.name}
+				${cookie.someCookie.value}
 					<table width="100%"  align="left"
 						cellpadding="0" cellspacing="0" border="0">
 						<tbody>
